@@ -17,3 +17,9 @@ Readable format for this scenarios
   * page must contain "We couldn't find any repositories"
 
 
+## a manual test
+  Tags: manual
+
+  * go to foobar
+  * do this and that
+  * ensure it works

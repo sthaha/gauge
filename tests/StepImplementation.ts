@@ -43,5 +43,24 @@ export default class StepImplementation {
       ok(await text(content).exists());
     }
 
+    // these are manual steps
+    // change throw to ok(true) to make the step as done
+
+    @Step("go to foobar")
+    public async implementation102b27fb9628329d6783() {
+      ok(true)
+      //throw new Error("Method not implemented.");
+    }
+
+    @Step("do this and that")
+    public async implementationde012a8914ebcb195a27() {
+      ok(true)
+      //throw new Error("Method not implemented.");
+    }
+    @Step("ensure it works")
+    public async implementationb330326aa83df2ed3821() {
+      throw new Error("Method not implemented.");
+    }
+
 }
 
